@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conscientização Ambiental</title>
+  <meta name="description" content="Site de conscientização sobre poluição ambiental e ações sustentáveis." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">EcoMundo</div>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#tipos">Tipos</a></li>
+        <li><a href="#impactos">Impactos</a></li>
+        <li><a href="#acoes">Ações</a></li>
+      </ul>
+    </nav>
+
+    <section id="inicio" class="hero-content">
+      <div class="text-box">
+        <span class="tag">Conscientização ambiental</span>
+        <h1>Proteja o planeta antes que seja tarde.</h1>
+        <p>
+          A poluição ambiental afeta o ar, a água, o solo, a vida silvestre e a saúde
+          humana. Quando a sociedade se informa e age, mudanças reais são possíveis.
+        </p>
+        <div class="buttons">
+          <a href="#tipos" class="btn primary">Saiba mais</a>
+          <a href="#acoes" class="btn secondary">Como agir</a>
+        </div>
+      </div>
+      <div class="image-box">
+        <div class="circle"></div>
+        <img src="https://images.unsplash.com/photo-1497435334941-8c89f39b9cab?auto=format&fit=crop&w=900&q=80" alt="Natureza em risco" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="tipos" class="section cards-section">
+      <div class="section-title">
+        <span>Tipos de poluição</span>
+        <h2>Quando o planeta grita</h2>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Atmosférica</h3>
+          <p>Emissão de gases e partículas provenientes de veículos, indústrias e queimadas.</p>
+        </article>
+        <article class="card">
+          <h3>Hídrica</h3>
+          <p>Despejo de resíduos industriais e domésticos em rios, mares e lençóis freáticos.</p>
+        </article>
+        <article class="card">
+          <h3>Do solo</h3>
+          <p>Acúmulo de lixo, produtos químicos e descarte inadequado de substâncias tóxicas.</p>
+        </article>
+        <article class="card">
+          <h3>Sonora</h3>
+          <p>Ruídos excessivos causados por trânsito, máquinas e atividades urbanas.</p>
+        </article>
+        <article class="card">
+          <h3>Visual</h3>
+          <p>Poluição causada por placas excessivas, lixo urbano e degradação estética.</p>
+        </article>
+        <article class="card">
+          <h3>Eletrônica</h3>
+          <p>Resíduos de aparelhos eletrônicos descartados de forma incorreta.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="impactos" class="section impact-section">
+      <div class="section-title left">
+        <span>Impactos</span>
+        <h2>Consequências para todos</h2>
+      </div>
+      <div class="impact-list">
+        <div>
+          <strong>Saúde humana</strong>
+          <p>Doenças respiratórias, problemas cardiovasculares e agravamento de alergias.</p>
+        </div>
+        <div>
+          <strong>Fauna e flora</strong>
+          <p>Destruição de habitats naturais, extinção de espécies e desequilíbrio ambiental.</p>
+        </div>
+        <div>
+          <strong>Clima</strong>
+          <p>Emissão de gases de efeito estufa intensifica o aquecimento global.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="acoes" class="section actions-section">
+      <div class="section-title">
+        <span>Ações</span>
+        <h2>Pequenos gestos, grandes mudanças</h2>
+      </div>
+      <div class="actions-grid">
+        <div class="action-box">
+          <h3>Reciclar</h3>
+          <p>Separe corretamente o lixo e reutilize materiais sempre que possível.</p>
+        </div>
+        <div class="action-box">
+          <h3>Economizar recursos</h3>
+          <p>Reduza o consumo de água, energia e transporte individual.</p>
+        </div>
+        <div class="action-box">
+          <h3>Plantio e preservação</h3>
+          <p>Plante árvores e ajude a preservar áreas naturais e verdes.</p>
+        </div>
+        <div class="action-box">
+          <h3>Educação</h3>
+          <p>Compartilhe informação e incentive ações sustentáveis na comunidade.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 EcoMundo - Conscientização Ambiental</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

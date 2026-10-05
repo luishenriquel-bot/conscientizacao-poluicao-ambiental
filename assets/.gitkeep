@@ -1,0 +1,16 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.card, .action-box, .impact-list div');
+
+  cards.forEach((item) => {
+    item.addEventListener('mouseenter', () => {
+      item.style.transform = 'translateY(-4px)';
+      item.style.transition = 'transform 0.2s ease';
+    });
+
+    item.addEventListener('mouseleave', () => {
+      item.style.transform = 'translateY(0)';
+    });
+  });
+});
+
+console.log('Site de conscientização ambiental carregado com sucesso.');
